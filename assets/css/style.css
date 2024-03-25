@@ -1093,10 +1093,10 @@ blockquote {
   }
   #hero {
     background: url("../img/home-bg.jpg");
-    height: 60vh;
+    height: 70vh;
     width: 100%;
     background-size:cover;
-    background-position:  initial center 150px;
+    background-position: center initial 100px;
   }
   
   #hero .hero-content {
@@ -1104,9 +1104,10 @@ blockquote {
     text-align: left;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content:end;
     flex-direction: column;
   }
+
   .hero-content h1 {
   font-size: 20px;
   font-weight: 700;
