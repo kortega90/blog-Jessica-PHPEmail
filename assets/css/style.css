@@ -1091,6 +1091,49 @@ blockquote {
     max-width: 100%; /* Garante que o iframe não ultrapasse a largura da tela */
     height: 500px; /* Permite que a altura do iframe seja ajustada automaticamente */
   }
+  #hero {
+    background: url("../img/home-bg.jpg");
+    height: 60vh;
+    width: 100%;
+    background-size:cover;
+    background-position:  initial center 150px;
+  }
+  
+  #hero .hero-content {
+    height: 60vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .hero-content h1 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color:#292929;
+}
+
+.hero-content p {
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-top: 0;
+  margin-bottom:1px;
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 500;
+}
+
+.hero-content .list-social li {
+  float: left;
+  margin-right: 20px;
+}
+
+.hero-content .list-social li i {
+  color: #fff;
+  font-size: 14px;
+}
 }
 
 /** Width between 320px to 0
