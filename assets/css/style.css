@@ -1089,7 +1089,7 @@ blockquote {
   #contact iframe {
     width: 100%; /* Define a largura do iframe para ocupar toda a largura disponível */
     max-width: 100%; /* Garante que o iframe não ultrapasse a largura da tela */
-    height: auto; /* Permite que a altura do iframe seja ajustada automaticamente */
+    height: 500px; /* Permite que a altura do iframe seja ajustada automaticamente */
   }
 }
 
